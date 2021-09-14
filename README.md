@@ -1,4 +1,4 @@
-# scut_cg_new
+# SCUT_Computer_Graphics_Homework
 
 ## Project setup
 ```
