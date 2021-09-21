@@ -4,6 +4,7 @@ import triangle_ball from './components/triangle_ball.vue'
 import day1_problems from './components/day1_problems.vue'
 import sierpinski_gasket from './components/3d_sierpinski_gasket.vue'
 import convex_polygon from './components/convex_polygon.vue'
+import day3_problems from './components/day3_problems.vue'
 
 const routers = [
     {
@@ -39,7 +40,12 @@ const routers = [
         path: '/convex_polygon',
         name: 'convex_polygon',
         component: convex_polygon,
-    }
+    },
+    {
+        path: '/day3_problems',
+        name: 'day3_problems',
+        component: day3_problems,
+    },
 ]
 
 export default routers

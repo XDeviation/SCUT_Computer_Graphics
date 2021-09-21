@@ -48,6 +48,10 @@ export default {
         name: "convex_polygon",
         path: "/convex_polygon",
       },
+      {
+        name: "day3_problems",
+        path: "/day3_problems",
+      },
     ],
   }),
 
