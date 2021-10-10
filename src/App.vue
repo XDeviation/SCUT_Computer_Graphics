@@ -5,10 +5,10 @@
     </v-main>
   </v-app> -->
   <div>
-    <router-view />
     <li v-for="item in items" :key="item">
       <router-link :to="item.path">{{ item.name }}</router-link>
     </li>
+    <router-view />
   </div>
 </template>
 
@@ -51,6 +51,10 @@ export default {
       {
         name: "day3_problems",
         path: "/day3_problems",
+      },
+      {
+        name: "exp1",
+        path: "/exp1",
       },
     ],
   }),
