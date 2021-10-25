@@ -56,6 +56,10 @@ export default {
         name: "exp1",
         path: "/exp1",
       },
+      {
+        name: "exp2",
+        path: "/exp2",
+      },
     ],
   }),
 
